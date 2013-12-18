@@ -33,12 +33,7 @@ namespace AgileTickets.Web.Controllers
             agenda.Cadastra(espetaculo);
 
             return RedirectToAction("Index");
-        }
-
-        private ActionResult VoltaPraIndex()
-        {
-            return RedirectToAction("Index");
-        }
+        }        
 
     }
 }

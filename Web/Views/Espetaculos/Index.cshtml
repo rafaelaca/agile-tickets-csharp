@@ -30,7 +30,7 @@ Estabelecimento:
         <tr>
             <td>@item.Nome</td>
             <td>@item.Descricao</td>
-            <td>@item.Estabelecimento.Nome</td>
+            <td>@((item.Estabelecimento == null) ? "" : item.Estabelecimento.Nome)</td>
             <td><a href="@Url.Action("Criar", "Sessoes", new { id = @item.Id})">Criar Sessões</a></td>
         </tr>
     }

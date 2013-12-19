@@ -10,6 +10,7 @@ namespace Tests
     [TestFixture]
     public class PrimeiroTest
     {
+        
         // Todo método de teste deve ser anotado com Test.
         [Test]
         public void DeveAcumularOValorPassado()

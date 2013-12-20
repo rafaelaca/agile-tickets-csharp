@@ -24,7 +24,7 @@ namespace AgileTickets.Web.Controllers
             ViewBag.Id = id;
             return View();
         }
-
+        
         public ActionResult Index()
         {
             return View(agenda.ProximasSessoes(10));

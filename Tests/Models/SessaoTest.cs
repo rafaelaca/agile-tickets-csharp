@@ -47,5 +47,7 @@ namespace Tests.Models
             sessao.Reserva(3);
             Assert.AreEqual(2, sessao.IngressosDisponiveis);
         }
+
+        
     }
 }
